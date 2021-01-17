@@ -16,7 +16,7 @@ app.use('/uploads', express.static('./uploads'));
 app.use(express.json());
 app.use('/', routes);
 mongoose.connect(
-  'mongodb+srv://being:12345@cluster0.fp2hj.mongodb.net/abcde?retryWrites=true&w=majority',
+  'mongo key',
   {
     useFindAndModify: false,
     useUnifiedTopology: true,
