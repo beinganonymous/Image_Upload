@@ -1,0 +1,39 @@
+{
+  "name": "chetan",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.18.4"
+  },
+  "description": "Image Upload",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/beinganonymous/Image_Upload.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "tea",
+    "node",
+    "heroku"
+  ],
+  "author": "Fer Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://https://github.com/beinganonymous/Image_Upload/issues"
+  },
+  "homepage": "https://https://github.com/beinganonymous/Image_Upload#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "mongoose": "^5.10.7",
+    "multer": "^1.4.2"
+  }
+}
